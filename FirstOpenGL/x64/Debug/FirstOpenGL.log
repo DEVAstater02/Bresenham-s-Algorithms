@@ -1,0 +1,14 @@
+﻿  glad.c
+  1.c
+E:\BITS\2-2\IS F311\OpenGL Projects\FirstOpenGL\FirstOpenGL\src\1.c(33,29): warning C4113: 'void (__cdecl *)()' differs in parameter lists from 'void (__cdecl *)(void)'
+  Generating Code...
+1.obj : error LNK2019: unresolved external symbol __imp___glutInitWithExit referenced in function glutInit_ATEXIT_HACK
+1.obj : error LNK2019: unresolved external symbol __imp_glutInitDisplayMode referenced in function main
+1.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowPosition referenced in function main
+1.obj : error LNK2019: unresolved external symbol __imp_glutInitWindowSize referenced in function main
+1.obj : error LNK2019: unresolved external symbol __imp_glutMainLoop referenced in function main
+1.obj : error LNK2019: unresolved external symbol __imp___glutCreateWindowWithExit referenced in function glutCreateWindow_ATEXIT_HACK
+1.obj : error LNK2019: unresolved external symbol __imp_glutDisplayFunc referenced in function main
+E:\BITS\2-2\IS F311\OpenGL Projects\FirstOpenGL\Dependencies\GLFW\lib-vc2019\glut32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\BITS\2-2\IS F311\OpenGL Projects\FirstOpenGL\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+E:\BITS\2-2\IS F311\OpenGL Projects\FirstOpenGL\x64\Debug\FirstOpenGL.exe : fatal error LNK1120: 7 unresolved externals
